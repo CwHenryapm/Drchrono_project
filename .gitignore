@@ -1,0 +1,9 @@
+.idea/
+*/migrations/*
+cert.crt
+cert.key
+debug.log
+drchrono.sqlite3
+
+!*/*/migrations/__init__.py
+

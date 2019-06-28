@@ -1,0 +1,41 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+django-stubs = "*"
+ipdb = "*"
+social = "*"
+
+[packages]
+django = "*"
+python-dotenv = "*"
+django-pdb = "*"
+bleach = "*"
+django-filter = "*"
+django-bootstrap4 = "*"
+ipython = "*"
+django-select2 = "*"
+psutil = "*"
+pillow = "*"
+social = "*"
+splinter = "*"
+requests = "*"
+python-social-auth = "*"
+social-django = "*"
+social-auth-app-django = "*"
+djangorestframework = "*"
+oauth = "*"
+oauth2 = "*"
+oauth2client = "*"
+oauthlib = "*"
+requests-oauth2 = "*"
+requests-oauthlib = "*"
+views = "*"
+django-extensions = "*"
+
+[requires]
+python_version = "3.7"

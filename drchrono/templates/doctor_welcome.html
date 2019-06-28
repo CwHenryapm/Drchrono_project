@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to drchrono</title>
+</head>
+<body>
+<h1>Welcome {{ doctor.first_name }} {{ doctor.last_name }}</h1>
+{{ doctor }}
+
+------------------------------------
+
+
+{% if patients %}
+    {% for key,val in patients.items %}
+        token {{ val }}
+{% endfor %}
+{% endif %}
+</body>
+</html>
