@@ -69,9 +69,9 @@ class DoctorWelcome(TemplateView):
         # patients_details = self.make_api_request_to_patients()
         #
         # kwargs['patients'] = patients_details
-        appointment_profile_details = \
-            self.make_api_request_to_appointment_profiles()
-        kwargs['appointment_profiles'] = appointment_profile_details
+        # appointment_profile_details = \
+            # self.make_api_request_to_appointment_profiles()
+        # kwargs['appointment_profiles'] = appointment_profile_details
         # for patient_detail in patients_details:
         #     print(patient_detail)
         return kwargs
