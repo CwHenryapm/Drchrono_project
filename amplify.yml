@@ -1,0 +1,14 @@
+version: 0.1
+frontend:
+  phases:
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands: [./manage.py makemigrations,
+                ./manage.py migrate]
+  artifacts:
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: Drchrono_project/
+    files:
+      - '**/*'
+  cache:
+    paths: []
